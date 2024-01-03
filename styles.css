@@ -1,0 +1,134 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+}
+
+body{
+    background:#29282b;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px auto 24px;
+}
+
+.banner, .banner-content {
+    color: white;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner .banner-content button {
+    border: 2px solid rgb(120, 64, 184);
+    border-radius: 0px;
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: large;
+}
+
+.banner .banner-content button:hover {
+    background: rgb(120, 64, 184);
+}
+
+#course-content {
+    margin: 20px;
+    text-align: center;
+}
+
+#course-content h2 {
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+#course-content p {
+    margin: 16px auto 20px;
+    max-width: 700px;
+    text-align: center;
+    word-spacing: normal;
+    font-size: 1.25rem;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    margin: 0 auto 20px;
+    border: 2px solid blueviolet;
+    border-radius: 100px;
+    width: 450px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#transform-world {
+    background-image: url(images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    height: 250px;
+    padding: 150px;
+}
+
+#transform-world p {
+    max-width: 300px;
+    text-shadow: 3px 2px #33A8DB;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    word-spacing: normal;
+}
+
+#professional-challenges {
+    text-align: center;
+    margin: 20px;
+}
+
+#professional-challenges h2 {
+    color:blueviolet;
+    text-transform: uppercase;
+}
+
+#professional-challenges p {
+    margin: 16px auto 20px;
+    max-width: 900px;
+    text-align: center;
+    word-spacing: normal;
+    font-size: 1.25rem;
+}
+
+footer {
+    text-align: center;
+}
