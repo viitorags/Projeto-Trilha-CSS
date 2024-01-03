@@ -37,7 +37,7 @@ a {
 
 .banner, .banner-content {
     color: white;
-    width: 500px;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
